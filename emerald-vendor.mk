@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/teracube/emerald/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/teracube/emerald/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/teracube/emerald/proprietary/lib64/libccci_util_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libccci_util_sys.so \
     vendor/teracube/emerald/proprietary/system_ext/bin/aee:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee \
     vendor/teracube/emerald/proprietary/system_ext/bin/aee_aed:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_aed \
     vendor/teracube/emerald/proprietary/system_ext/bin/aee_aed64:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_aed64 \
@@ -52,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/system_ext/lib/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnfc_st_dta_jni.so \
     vendor/teracube/emerald/proprietary/system_ext/lib/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnir_neon_driver_ndk.mtk.so \
     vendor/teracube/emerald/proprietary/system_ext/lib/libnn_sample.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnn_sample.so \
-    vendor/teracube/emerald/proprietary/system_ext/lib/libqrcode_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqrcode_jni.so \
     vendor/teracube/emerald/proprietary/system_ext/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libstnfc-nci.so \
     vendor/teracube/emerald/proprietary/system_ext/lib/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libstnfc_nci_jni.so \
     vendor/teracube/emerald/proprietary/system_ext/lib/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libteeservice_client.trustonic.so \
@@ -409,7 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/teracube/emerald/proprietary/vendor/etc/init/vendor.microtrust.hardware.tface@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.tface@1.0-service.rc \
     vendor/teracube/emerald/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
-    vendor/teracube/emerald/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
     vendor/teracube/emerald/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
     vendor/teracube/emerald/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/teracube/emerald/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
@@ -712,7 +711,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-    vendor/teracube/emerald/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
@@ -827,10 +825,8 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/vendor/lib/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libverno.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libvolte_core_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_core_shr.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libvolte_xdmc_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_xdmc_shr.so \
-    vendor/teracube/emerald/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
-    vendor/teracube/emerald/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/teracube/emerald/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
@@ -1283,6 +1279,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Nfc_st \
     STNFCDta \
+    FMRadio \
     com.st.android.nfc_extensions \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.boot@1.1 \

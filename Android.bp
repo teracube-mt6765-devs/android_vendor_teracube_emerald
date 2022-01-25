@@ -5,6 +5,23 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libfmjni",
+	owner: "teracube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/libfmjni.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	system_ext_specific: true,
+}
+
 android_app_import {
 	name: "Nfc_st",
 	owner: "teracube",
@@ -24,18 +41,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "FMRadio",
-	owner: "teracube",
-	apk: "proprietary/system_ext/priv-app/FMRadio/FMRadio.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 	system_ext_specific: true,
 }
 

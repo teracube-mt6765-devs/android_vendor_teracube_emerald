@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/system_ext/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiotoolkit.so \
     vendor/teracube/emerald/proprietary/system_ext/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcmdl_ndk.mtk.so \
     vendor/teracube/emerald/proprietary/system_ext/lib64/libdtaNfaProvider.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdtaNfaProvider.so \
-    vendor/teracube/emerald/proprietary/system_ext/lib64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfmjni.so \
     vendor/teracube/emerald/proprietary/system_ext/lib64/libneuron_opencv_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_opencv_delegate.mtk.so \
     vendor/teracube/emerald/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
     vendor/teracube/emerald/proprietary/system_ext/lib64/libnfc_st_dta.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnfc_st_dta.so \
@@ -1277,9 +1276,9 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 
 PRODUCT_PACKAGES += \
+    libfmjni \
     Nfc_st \
     STNFCDta \
-    FMRadio \
     com.st.android.nfc_extensions \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.boot@1.1 \

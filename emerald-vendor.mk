@@ -33,14 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/emerald/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/teracube/emerald/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/teracube/emerald/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkadpcmextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkadpcmextractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkalacextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkalacextractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkapeextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkapeextractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkasfextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkasfextractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkaviextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkaviextractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkflvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkflvextractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkmp3extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkmp3extractor.so \
-    vendor/teracube/emerald/proprietary/lib64/extractors/libmtkmpeg2extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkmpeg2extractor.so \
     vendor/teracube/emerald/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/teracube/emerald/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/teracube/emerald/proprietary/lib64/libccci_util_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libccci_util_sys.so \
